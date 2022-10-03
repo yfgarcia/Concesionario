@@ -1,0 +1,92 @@
+body {
+    heigh:665px;
+    background-image: url("background_html/pagina1_ktm.jpeg");
+    background-size: 105rem;
+} 
+
+body ul {
+    display: flex;
+}
+
+body ul aside {
+    width: 300px;
+}
+
+nav {
+    background-color: rgb(216, 98, 19);
+    display: inline-block;
+    /* muestra la lista una seguida de otro horizontal */
+    /*display: block;*/
+}
+
+nav ul div{
+    display: flex;
+    /* Pone el contenido de la lista de forma horizontal */
+    list-style: none;
+    margin: 0;
+    top: 0px;
+    width: 160px;
+}
+
+/*ACÁ COMIENZA CATALOGO*/
+
+.Catalogo {
+    display: inline-block;
+    position: relative;
+}
+
+.Catalogo-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.4);
+}
+
+.Catalogo:hover .Catalogo-content {
+    display: block;
+}
+
+.Catalogo-content a {
+    display: block;
+    color: #000000;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.Catalogo-content a:hover {
+    color: #FFFFFF;
+    background-color: #00A4BD;
+}
+
+
+/*ACÁ COMIENZA COMMUNITY*/
+
+.Community {
+    display: inline-block;
+    position: relative;
+}
+
+.Community-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.4);
+}
+
+.Community:hover .Community-content {
+    display: block;
+}
+
+.Community-content a {
+    display: block;
+    color: #000000;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.Community-content a:hover {
+    color: #FFFFFF;
+    background-color: #00A4BD;
+}
