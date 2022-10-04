@@ -1,6 +1,14 @@
 body {
-    background-color: rgba(8, 9, 85, 0.815);
-    color: antiquewhite;
+    
+    
+    height: 800px;
+    background-image: url("https://clubdelmotorista.com/wp-content/uploads/2019/10/kawasaki-z-h2-2020-2-1000x640.jpg");
+    background-size: cover;
+    background-size: 90rem;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+        
 }
 
 body ul {
