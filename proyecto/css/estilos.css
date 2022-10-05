@@ -156,3 +156,29 @@ table {
     vertical-align: top;
     border: 1px solid #000;
  }
+
+ .Parrafovideo1{
+    margin-top: 100px;
+    display: flex;
+    background-color: #ffffff;
+    padding: 25px;
+    color: #000;
+}
+.Parrafo1{
+    padding-left:25px;
+    text-align: left;
+}
+
+.Parrafo2{
+    padding-left:25px;
+    text-align: left;
+    
+}
+
+.Parrafovideo2{
+    margin-top: 100px;
+    display:flex;
+    background-color: #ffffff;
+    padding: 25px;
+    color: #000;
+}
