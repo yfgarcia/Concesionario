@@ -160,7 +160,7 @@ table {
  .Parrafovideo1{
     margin-top: 100px;
     display: flex;
-    background-color: #ffffff;
+    background-color: #e16628;
     padding: 25px;
     color: #000;
 }
@@ -176,6 +176,34 @@ table {
 }
 
 .Parrafovideo2{
+    margin-top: 100px;
+    display:flex;
+    background-color: #41b234;
+    padding: 25px;
+    color: #000;
+}
+
+.Parrafo3{
+    padding-left:25px;
+    text-align: left;
+    
+}
+
+.Parrafovideo3{
+    margin-top: 100px;
+    display:flex;
+    background-color: #2a54be;
+    padding: 25px;
+    color: #000;
+}
+
+.Parrafo4{
+    padding-left:25px;
+    text-align: left;
+    
+}
+
+.Parrafovideo4{
     margin-top: 100px;
     display:flex;
     background-color: #ffffff;
