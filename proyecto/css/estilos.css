@@ -156,3 +156,58 @@ table {
     vertical-align: top;
     border: 1px solid #000;
  }
+
+ /*CAMBIOS VIDEOS MAICOL*/
+ .Parrafovideo1{
+    margin-top: 100px;
+    display: flex;
+    background-color: #e16628;
+    padding: 25px;
+    color: #000;
+}
+.Parrafo1{
+    padding-left:25px;
+    text-align: left;
+}
+
+.Parrafo2{
+    padding-left:25px;
+    text-align: left;
+    
+}
+
+.Parrafovideo2{
+    margin-top: 100px;
+    display:flex;
+    background-color: #41b234;
+    padding: 25px;
+    color: #000;
+}
+
+.Parrafo3{
+    padding-left:25px;
+    text-align: left;
+    
+}
+
+.Parrafovideo3{
+    margin-top: 100px;
+    display:flex;
+    background-color: #2a54be;
+    padding: 25px;
+    color: #000;
+}
+
+.Parrafo4{
+    padding-left:25px;
+    text-align: left;
+    
+}
+
+.Parrafovideo4{
+    margin-top: 100px;
+    display:flex;
+    background-color: #ffffff;
+    padding: 25px;
+    color: #000;
+}
