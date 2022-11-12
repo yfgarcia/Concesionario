@@ -2,7 +2,6 @@ body {
     
     
     height: 800px;
-    background-image: url("https://clubdelmotorista.com/wp-content/uploads/2019/10/kawasaki-z-h2-2020-2-1000x640.jpg");
     background-size: cover;
     background-size: 90rem;
     background-repeat: no-repeat;
@@ -210,4 +209,38 @@ table {
     background-color: #ffffff;
     padding: 25px;
     color: #000;
+}
+
+.banner{
+  width: 1000px;
+  height: 200px;
+  border: 3px solid black;  
+  margin: auto;
+
+  background-size: 100% 100%;
+
+  animation: banner 5s infinite;
+  animation-direction: alternate;
+  
+}
+
+@keyframes banner{
+    0%, 30% {
+        background-image: url(imagenes/banner_kawa.png);
+        opacity: 1;
+    }
+    31%, 34%{
+        opacity: 0.1;
+    }
+    35%, 65% {
+        background-image: url(imagenes/banner_ktm.png);
+        opacity: 1;
+    }
+    66%, 69%{
+        opacity: 0.1;
+    }
+    70%, 100% {
+        background-image: url(imagenes/banner_yamaha.jpg);
+        opacity: 1;
+    }
 }
