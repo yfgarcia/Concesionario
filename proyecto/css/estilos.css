@@ -166,6 +166,13 @@ td {
     text-align: left;
 }
 
+.Parrafo1 p {
+    font-size: 15px;
+    max-width: 750px;
+    margin-bottom: 30px;
+    margin-right: 10px;
+}
+
 .Parrafo1 h4 {
     color: #757c7b;
 }
@@ -211,7 +218,7 @@ article {
 }
 
 article {
-    margin-top: 200px;
+    margin-top: 180px;
     margin-left: 100px;
     margin-right: 100px;
 }
@@ -233,6 +240,13 @@ article {
     margin-top: 40px;
     padding-left: 50px;
     text-align: left;
+}
+
+.Parrafo2 p {
+    font-size: 15px;
+    max-width: 750px;
+    margin-bottom: 30px;
+    margin-right: 10px;
 }
 
 .Parrafo2 h4 {
@@ -281,6 +295,12 @@ article:hover a .Parrafovideo2 {
 .Parrafo3 h4 {
     color: #757c7b;
 }
+.Parrafo3 p {
+    font-size: 15px;
+    max-width: 750px;
+    margin-bottom: 60px;
+    margin-right: 10px;
+}
 
 .Parrafovideo3 {
     margin-top: 50px;
@@ -325,11 +345,19 @@ article:hover a .Parrafovideo3 {
     color: #757c7b;
 }
 
+.Parrafo4 p {
+    font-size: 15px;
+    max-width: 800px;
+    margin-bottom: 60px;
+    margin-right: 10px;
+}
+
 .Parrafovideo4 {
     margin-top: 50px;
     display: flex;
     padding: 0px;
     color: #000;
+    margin-bottom: 150px;
 }
 
 .Parrafovideo4 .button:hover {
