@@ -1,13 +1,13 @@
 body {
-    
-    
+
+
     height: 800px;
     background-size: cover;
     background-size: 90rem;
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
-        
+
 }
 
 body ul {
@@ -25,7 +25,7 @@ nav {
     display: block;
 }
 
-nav ul div{
+nav ul div {
     display: flex;
     /* Pone el contenido de la lista de forma horizontal */
     list-style: none;
@@ -148,99 +148,85 @@ table {
     width: 50%;
     border: 1px solid #000;
     background-color: #428881;
- }
- th, td {
+}
+
+th,
+td {
     width: 25%;
     text-align: left;
     vertical-align: top;
     border: 1px solid #000;
- }
+}
 
- /*CAMBIOS VIDEOS MAICOL*/
- .Parrafovideo1{
+/*CAMBIOS VIDEOS MAICOL*/
+.Parrafovideo1 {
     margin-top: 100px;
     display: flex;
     background-color: #e16628;
     padding: 25px;
     color: #000;
 }
-.Parrafo1{
-    padding-left:25px;
+
+.Parrafo1 {
+    padding-left: 25px;
     text-align: left;
 }
 
-.Parrafo2{
-    padding-left:25px;
+.Parrafo2 {
+    padding-left: 25px;
     text-align: left;
-    
+
 }
 
-.Parrafovideo2{
+.Parrafovideo2 {
     margin-top: 100px;
-    display:flex;
+    display: flex;
     background-color: #41b234;
     padding: 25px;
     color: #000;
 }
 
-.Parrafo3{
-    padding-left:25px;
+.Parrafo3 {
+    padding-left: 25px;
     text-align: left;
-    
+
 }
 
-.Parrafovideo3{
+.Parrafovideo3 {
     margin-top: 100px;
-    display:flex;
+    display: flex;
     background-color: #2a54be;
     padding: 25px;
     color: #000;
 }
 
-.Parrafo4{
-    padding-left:25px;
+.Parrafo4 {
+    padding-left: 25px;
     text-align: left;
-    
+
 }
 
-.Parrafovideo4{
+.Parrafovideo4 {
     margin-top: 100px;
-    display:flex;
+    display: flex;
     background-color: #ffffff;
     padding: 25px;
     color: #000;
 }
 
-.banner{
-  width: 1000px;
-  height: 200px;
-  border: 3px solid black;  
-  margin: auto;
-
-  background-size: 100% 100%;
-
-  animation: banner 5s infinite;
-  animation-direction: alternate;
-  
+.contenedor {
+    width: 100%;
 }
 
-@keyframes banner{
-    0%, 30% {
-        background-image: url(imagenes/banner_kawa.png);
-        opacity: 1;
-    }
-    31%, 34%{
-        opacity: 0.1;
-    }
-    35%, 65% {
-        background-image: url(imagenes/banner_ktm.png);
-        opacity: 1;
-    }
-    66%, 69%{
-        opacity: 0.1;
-    }
-    70%, 100% {
-        background-image: url(imagenes/banner_yamaha.jpg);
-        opacity: 1;
-    }
+.slider-contenedor {
+    width: 100%;
+    display: flex;
+}
+
+.responsive-banner {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    /*justify-content: space-around;*/
+    flex-shrink: 0;
 }
