@@ -6,6 +6,32 @@
 	<link rel="stylesheet" type="text/css" href="estilo.css">
 </head>
 <body>
+
+<header>
+        <div class="encabezado">
+            <nav>
+                <nav>
+                    <div class="logo">
+                        <img src="imagenes/Logo.jpg" alt="">
+                    </div>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li>
+                            <a href="">Catalogo</a>
+                            <ul>
+                                <li><a href="pagina2_kawasaki.html">kawasaki</a></li>
+                                <li><a href="pagina1_ktm.html">KTM</a></li>
+                                <li><a href="pagina3_susuki.html">Susuki</a></li>
+                                <li><a href="pagina4_yamaha.html">Yamaha</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="formulario_cotizacion/index.php">Cotizaciones</a></li>
+                        <li><a href="">Conocenos</a></li>
+                    </ul>
+                </nav>
+            </nav>
+        </div>
+    </header>
 	
     <form method="post">
     	<h1>¡Cotiza con nosotros!</h1>

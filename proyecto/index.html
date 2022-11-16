@@ -7,56 +7,48 @@
     <meta name="Robots" content="index,follow" />
     <meta name="vieport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="./css/estilos.css">
-    <link href="pagina1_ktm.html" rel="import" />
-    <link href="pagina2_kawasaki.html" rel="import" />
-    <link href="pagina3_susuki.html" rel="import" />
-    <link href="pagina4_yamaha.html" rel="import" />
+
     <title> SBK Racing </title>
 </head>
 
 <body>
+
     <header>
-        <nav>
-            <ul>
-                <div class="Catalogo">
-                    <a> Catalogo</a>
-                    <div class="Catalogo-content">
-                        <a href="https://www.autecomobility.com/kawasaki">KAWASAKI</a>
-                        <a href="https://www.autecomobility.com/kawasaki">KAWASAKI</a>
-                        <a href="https://www.auteco.com.co/motos-ktm/">KTM</a>
-                        <a href="https://www.incolmotos-yamaha.com.co/ ">YAMAHA</a>
+        <div class="encabezado">
+            <nav>
+                <nav>
+                    <div class="logo">
+                        <img src="imagenes/Logo.jpg" alt="">
                     </div>
-                </div>
-                <div class="Home">
-
-                    <u>
-                        <p onClick="window.location.reload();"><img src="imagenes/Logo.jpg"></p>
-                    </u>
-                    <script>
-                        function Home() {
-                            window.location.href = window.location.href;
-                        }
-                    </script>
-                </div>
-                <div class="Comunidad">
-                    <a>Comunidad</a>
-                    <div class="Comunidad-content">
-                        <a href="https://blog.hubspot.com/">Quienes somos</a>
-                        <a href="https://academy.hubspot.com/">Cotizacion</a>
-                    </div>
-                </div>
-
-            </ul>
-            <div class="banner">
-                <div class="capa"></div>
-                <div class="info">
-                    <h1>BIENVENIDOS</h1>
-                    <p>Disfruta de los momentos viajando con nuestros amplios y diferentes motos</p>
-                    <a href="#">leer Más</a>
-                </div>
-            </div>
-        </nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li>
+                            <a href="">Catalogo</a>
+                            <ul>
+                                <li><a href="pagina2_kawasaki.html">kawasaki</a></li>
+                                <li><a href="pagina1_ktm.html">KTM</a></li>
+                                <li><a href="pagina3_susuki.html">Susuki</a></li>
+                                <li><a href="pagina4_yamaha.html">Yamaha</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="formulario_cotizacion/index.php">Cotizaciones</a></li>
+                        <li><a href="#textoredes">Conocenos</a></li>
+                    </ul>
+                </nav>
+            </nav>
+        </div>
     </header>
+
+    <div class="banner">
+
+        <div class="capa"></div>
+        <div class="info">
+            <h1>BIENVENIDOS</h1>
+            <p>Disfruta de los momentos viajando con nuestros amplios y diferentes motos</p>
+            <a href="#">Leer Más</a>
+        </div>
+    </div>
+
 
     <!--Inicio cambios Maicol-->
     <article class="bgded overlay">
@@ -197,7 +189,7 @@
 
     <!-- CAMBIOS DANIELA-->
 
-    <div class="textoredes">
+    <div class="textoredes" id="textoredes">
         <h1>SBK RACING</h1>
         <p>Copyright © 2022 SBK Motor Racing – A Sole Shareholder Company - A Company subject to the Management and
             Coordination
