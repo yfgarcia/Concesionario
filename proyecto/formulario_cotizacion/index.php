@@ -25,8 +25,8 @@
                                 <li><a href="../pagina4_yamaha.html">Yamaha</a></li>
                             </ul>
                         </li>
-                        <li><a href="formulario_cotizacion/index.php">Cotizaciones</a></li>
-                        <li><a href="">Conocenos</a></li>
+                        <li><a href="index.php">Cotizaciones</a></li>
+                        <li><a href="#textoredes">Conocenos</a></li>
                     </ul>
                 </nav>
             </nav>
@@ -51,7 +51,7 @@
 
     <!-- CAMBIOS DANIELA-->
 
-    <div class="textoredes">
+    <div class="textoredes" id="textoredes">
         <h1>SBK RACING</h1>
         <p>Copyright © 2022 SBK Motor Racing – A Sole Shareholder Company - A Company subject to the Management and
             Coordination
