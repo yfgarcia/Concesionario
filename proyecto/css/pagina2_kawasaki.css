@@ -8,88 +8,134 @@ body ul {
     display: flex;
 }
 
-body ul aside {
-    width: 300px;
+/*BANNER*/
+.encabezado{
+    background-color: rgb(58, 60, 60);
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 20px;
 }
 
-nav {
-    background-color: rgb(216, 98, 19);
-    display: inline-block;
-    /* muestra la lista una seguida de otro horizontal */
-    /*display: block;*/
+.logo img {
+    width: 80px;
+    border-radius: 50%;
 }
 
-nav ul div{
+.encabezado nav {
     display: flex;
-    /* Pone el contenido de la lista de forma horizontal */
+    justify-content: space-around;
+    align-items: center;
+}
+
+.encabezado nav ul {
     list-style: none;
-    margin: 0;
-    top: 0px;
-    width: 160px;
+    display: flex;
+    justify-content: space-between;
+
 }
 
-/*ACÁ COMIENZA CATALOGO*/
-
-.Catalogo {
-    display: inline-block;
-    position: relative;
-}
-
-.Catalogo-content {
-    display: none;
-    position: absolute;
-    width: 100%;
-    overflow: auto;
-    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.4);
-}
-
-.Catalogo:hover .Catalogo-content {
-    display: block;
-}
-
-.Catalogo-content a {
-    display: block;
-    color: #000000;
-    padding: 5px;
+.encabezado a {
     text-decoration: none;
+    font-size: 18px;
+    color: white;
+    padding: 12px 20px;
+    display: block;
+
 }
 
-.Catalogo-content a:hover {
-    color: #FFFFFF;
-    background-color: #00A4BD;
+.encabezado a:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+
 }
 
-
-/*ACÁ COMIENZA COMMUNITY*/
-
-.Community {
-    display: inline-block;
-    position: relative;
+.encabezado nav ul li ul {
+    display: flex;
+    flex-direction: column;
 }
 
-.Community-content {
-    display: none;
+.encabezado nav ul li ul{
     position: absolute;
+    background-color: rgb(58, 60, 60);
+}
+.encabezado nav ul li ul li{
+    width: 180px;
+}
+
+.encabezado nav ul li ul {
+    display: none;
+
+}
+
+.encabezado nav ul li:hover > ul {
+    display: block;
+
+}
+
+/*Banner*/
+
+.banner{
+    margin-top: 180px;
     width: 100%;
-    overflow: auto;
-    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.4);
+    height: 700px;
+    animation: banner 10s infinite linear alternate;
+    background-size: 100%  100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
-.Community:hover .Community-content {
-    display: block;
+@keyframes banner{
+    0%, 10%{
+        background-image: url(../imagenes/Moto1.jpg);
+    }
+    25%, 45%{
+        background-image: url(../imagenes/Moto.2.jpg);
+    }
+    50%, 70%{
+        background-image: url(../imagenes/Moto.3.jpg);
+    }
+    75%, 100%{
+        background-image: url(../imagenes/Motos4.jpg);
+    }
 }
-
-.Community-content a {
-    display: block;
-    color: #000000;
-    padding: 5px;
+.capa{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    background: rgba(0,0,0,0.6);
+}
+.info{
+    z-index: 1;
+    width: 100%;
+    max-width: 550px;
+    text-align: center;
+}
+.info h1{
+    color:white;
+    font-size: 45px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+.info p{
+    color: white;
+    line-height: 1.7;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+.info a{
+    color:white;
     text-decoration: none;
+    background: #7f91a3;
+    padding: 16px 37px;
+    display: inline-block;
+    border-radius: 50px;
 }
 
-.Community-content a:hover {
-    color: #FFFFFF;
-    background-color: #00A4BD;
-}
+
+/*Termina Banner*/
 /*Maicol*/
 
 .parrafo1 {

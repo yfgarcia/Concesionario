@@ -70,82 +70,68 @@ body ul {
     display: flex;
 }
 
-/*ACÁ COMIENZA HOME*/
-
-.Home {
-    display: inline-block;
-    position: relative;
+/*BANNER*/
+.encabezado{
+    background-color: rgb(58, 60, 60);
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 20px;
 }
 
-.Home-content {
-    display: none;
-    position: absolute;
-    width: 100%;
-    overflow: auto;
-    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.4);
+.logo img {
+    width: 80px;
+    border-radius: 50%;
 }
 
-/*ACÁ COMIENZA CATALOGO*/
-
-.Catalogo {
-    display: inline-block;
-    position: relative;
+.encabezado nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.Catalogo-content {
-    display: none;
-    position: absolute;
-    width: 100%;
-    overflow: auto;
-    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.4);
+.encabezado nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+
 }
 
-.Catalogo:hover .Catalogo-content {
-    display: block;
-}
-
-.Catalogo-content a {
-    display: block;
-    color: #000000;
-    padding: 5px;
+.encabezado a {
     text-decoration: none;
+    font-size: 18px;
+    color: white;
+    padding: 12px 20px;
+    display: block;
+
 }
 
-.Catalogo-content a:hover {
-    color: #FFFFFF;
-    background-color: #00A4BD;
+.encabezado a:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+
 }
 
-
-/*ACÁ COMIENZA COMMUNITY*/
-
-.Community {
-    display: inline-block;
-    position: relative;
+.encabezado nav ul li ul {
+    display: flex;
+    flex-direction: column;
 }
 
-.Community-content {
-    display: none;
+.encabezado nav ul li ul{
     position: absolute;
-    width: 100%;
-    overflow: auto;
-    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.4);
+    background-color: rgb(58, 60, 60);
+}
+.encabezado nav ul li ul li{
+    width: 180px;
 }
 
-.Community:hover .Community-content {
+.encabezado nav ul li ul {
+    display: none;
+
+}
+
+.encabezado nav ul li:hover > ul {
     display: block;
-}
 
-.Community-content a {
-    display: block;
-    color: #000000;
-    padding: 5px;
-    text-decoration: none;
-}
-
-.Community-content a:hover {
-    color: #FFFFFF;
-    background-color: #00A4BD;
 }
 
 /*INICIA CAMBIOS DANIELA*/ 
