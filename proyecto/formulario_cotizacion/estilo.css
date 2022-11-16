@@ -52,3 +52,192 @@ input[type='submit']{
 	background-color: #a22;
 	color: #fff
 }
+
+
+body {
+
+
+    height: 800px;
+    background-size: cover;
+    background-size: 90rem;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+
+}
+
+body ul {
+    display: flex;
+}
+
+/*ACÁ COMIENZA HOME*/
+
+.Home {
+    display: inline-block;
+    position: relative;
+}
+
+.Home-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.4);
+}
+
+/*ACÁ COMIENZA CATALOGO*/
+
+.Catalogo {
+    display: inline-block;
+    position: relative;
+}
+
+.Catalogo-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.4);
+}
+
+.Catalogo:hover .Catalogo-content {
+    display: block;
+}
+
+.Catalogo-content a {
+    display: block;
+    color: #000000;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.Catalogo-content a:hover {
+    color: #FFFFFF;
+    background-color: #00A4BD;
+}
+
+
+/*ACÁ COMIENZA COMMUNITY*/
+
+.Community {
+    display: inline-block;
+    position: relative;
+}
+
+.Community-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.4);
+}
+
+.Community:hover .Community-content {
+    display: block;
+}
+
+.Community-content a {
+    display: block;
+    color: #000000;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.Community-content a:hover {
+    color: #FFFFFF;
+    background-color: #00A4BD;
+}
+
+/*INICIA CAMBIOS DANIELA*/ 
+
+.textoredes {
+    background-color: #3d4947;
+    position: flex;
+    justify-content: center;
+
+}
+.textoredes p{
+    color:#a29e9e;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+.textoredes {
+    margin: 10px 0px;
+}
+
+.textoredes h1 {
+    padding-top: 20px;
+    text-align: center;
+    color:#FFFFFF;
+}
+
+.textoredes ul{
+    justify-content: center;
+    justify-content: space-around;
+}
+.redes h3{
+    margin-top: 35px;
+    margin-left: 30px;
+    color:#FFFFFF
+}
+
+.redes .social {
+    padding: 20px;
+    margin: 0px;
+}
+
+.redes .social li {
+    display: flex;
+    list-style: none;
+    background: #303030;
+    margin: 10px 0px 0px 0px;
+}
+
+.redes .social li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 16px 15px;
+    transition: all 0.4s ease-in;
+    
+}
+.redes .social li a:hover {
+    background: rgb(0, 0, 0);
+    color: #fff;
+}
+
+.contactos h3{
+    margin-left: 20px;
+    text-align: left;
+    color: #FFFFFF;
+    display: flex;
+}
+    
+.contactos {
+    padding: 20px;
+    margin: 0px;
+}
+
+.contactos .social li {
+    display: flex;
+    list-style: none;
+    background: #303030;
+    margin: 10px 0px 0px 0px;
+}
+
+.contactos .social li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 16px 15px;
+    transition: all 0.4s ease-in;
+    
+}
+
+.contactos .social li a:hover {
+    background: rgb(0, 0, 0);
+    color: #fff;
+}
+
+/*FIN AJUSTES DANIELA REDES*/
