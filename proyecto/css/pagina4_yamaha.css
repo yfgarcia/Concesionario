@@ -1,6 +1,6 @@
 body {
     heigh:665px;
-    background-image: url("background_html/pagina4_yamaha.webp");
+    background-color:#ffffff;
     background-size: 105rem;
 } 
 
@@ -89,4 +89,250 @@ nav ul div{
 .Community-content a:hover {
     color: #FFFFFF;
     background-color: #00A4BD;
+}
+/*Maicol*/
+
+.parrafo1 {
+    padding-left: 50px;
+    text-align: left;
+}
+
+.parrafoimg {
+    margin-top: 50px;
+    display: flex;
+    padding: 0px;
+    color: #000;
+}
+
+.parrafoimg .button:hover {
+    color: #000000;
+    background: #e47133;
+    border: 2px solid #000000;
+}
+
+article {
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: #FFFFFF;
+}
+
+article .parrafo1 h2 * {
+    color: #000000;
+}
+
+.parrafo1 p {
+    font-size: 12px;
+    max-width: 400px;
+    margin-bottom: 50px;
+}
+
+article:hover .parrafo1 h2 * {
+    color: #e47133;
+}
+
+article:hover .parrafoimg {
+    border-radius: 6px;
+    box-shadow: 0px 15px 25px rgba(206, 102, 32, 0.2);
+}
+
+article:hover a .parrafoimg {
+    color: #e47133;
+}
+
+.button {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    box-shadow: none;
+    color: rgb(0, 0, 0);
+    padding: 12px 18px;
+    font-size: 13px;
+    font-weight: bold;
+    transition: all 0.4s ease-in;
+
+}
+/*Maicol*/
+.parrafoktm{
+    text-align: center;
+    margin-top: 100px;
+    background-color: #FFFFFF;
+    padding: 150px;
+}
+
+.parrafoktm hr{
+    margin-top: 100px;
+}
+
+.fondoktm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.fondoktm img{
+    width: 100%;
+}
+
+.motos{
+    width: 100%;
+}
+.motosktm{
+    margin-top: 100px;
+}
+.motosktm div{
+    text-align: center;
+}
+.motosktm ul{
+    margin-top: 30px;
+    background-color: #FFFFFF;
+    margin-left: 80px;
+    margin-right: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.motos figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.motos figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+
+.motos figure .capa{
+    position: absolute;
+    top:0;
+    width: 100%;
+    height: 100%;
+    background: rgba(86, 79, 79, 0.6);
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+
+.motos figure:hover > .capa{
+    opacity: 1;
+    visibility: visible;
+}
+
+.motos figure:hover > .capa h3{
+    margin-top: 30px;
+    margin-bottom: 10px;
+   }
+   .motos figure:hover > .capa h3{
+       color: #FFFFFF;
+       font-weight: 400;
+       margin-bottom: 30px;
+       transition: all 500ms ease-out;
+       margin-top: 30px;
+   }
+   
+   .motos figure:hover > .capa p{
+       color: #FFFFFF;
+       font-size: 12px;
+       line-height: 1.5;
+       width: 100%;
+       max-width: 250px;
+       margin: auto;
+   
+    }
+    .motos figure:hover > img{
+       transform: scale(1.05);
+    }
+/*Daniela*/
+
+.textoredes {
+    background-color: #3d4947;
+    position: flex;
+    justify-content: center;
+
+}
+.textoredes p{
+    color:#a29e9e;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+.textoredes {
+    margin: 10px 0px;
+}
+
+.textoredes h1 {
+    padding-top: 20px;
+    text-align: center;
+    color:#FFFFFF;
+}
+
+.textoredes ul{
+    justify-content: center;
+    justify-content: space-around;
+}
+.redes h3{
+    margin-top: 35px;
+    margin-left: 30px;
+    color:#FFFFFF
+}
+
+.redes .social {
+    padding: 20px;
+    margin: 0px;
+}
+
+.redes .social li {
+    display: flex;
+    list-style: none;
+    background: #303030;
+    margin: 10px 0px 0px 0px;
+}
+
+.redes .social li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 16px 15px;
+    transition: all 0.4s ease-in;
+    
+}
+.redes .social li a:hover {
+    background: rgb(0, 0, 0);
+    color: #fff;
+}
+
+.contactos h3{
+    margin-left: 20px;
+    text-align: left;
+    color: #FFFFFF;
+    display: flex;
+}
+    
+.contactos {
+    padding: 20px;
+    margin: 0px;
+}
+
+.contactos .social li {
+    display: flex;
+    list-style: none;
+    background: #303030;
+    margin: 10px 0px 0px 0px;
+}
+
+.contactos .social li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 16px 15px;
+    transition: all 0.4s ease-in;
+    
+}
+
+.contactos .social li a:hover {
+    background: rgb(0, 0, 0);
+    color: #fff;
 }
