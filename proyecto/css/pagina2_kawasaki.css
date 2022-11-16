@@ -106,7 +106,7 @@ nav ul div{
 
 .parrafoimg .button:hover {
     color: #000000;
-    background: #e47133;
+    background: #32bd25;
     border: 2px solid #000000;
 }
 
@@ -127,16 +127,16 @@ article .parrafo1 h2 * {
 }
 
 article:hover .parrafo1 h2 * {
-    color: #e47133;
+    color: #64c221dd;
 }
 
 article:hover .parrafoimg {
     border-radius: 6px;
-    box-shadow: 0px 15px 25px rgba(206, 102, 32, 0.2);
+    box-shadow: 0px 15px 25px rgba(62, 204, 30, 0.2);
 }
 
 article:hover a .parrafoimg {
-    color: #e47133;
+    color: #64c221dd;
 }
 
 .button {
@@ -151,37 +151,37 @@ article:hover a .parrafoimg {
 
 }
 /*Maicol*/
-.parrafoktm{
+.parrafokawasaki{
     text-align: center;
     margin-top: 100px;
     background-color: #FFFFFF;
     padding: 150px;
 }
 
-.parrafoktm hr{
+.parrafokawasaki hr{
     margin-top: 100px;
 }
 
-.fondoktm {
+.fondokawasaki {
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
-.fondoktm img{
+.fondokawasaki img{
     width: 100%;
 }
 
 .motos{
     width: 100%;
 }
-.motosktm{
+.motoskawasaki{
     margin-top: 100px;
 }
-.motosktm div{
+.motoskawasaki div{
     text-align: center;
 }
-.motosktm ul{
+.motoskawasaki ul{
     margin-top: 30px;
     background-color: #FFFFFF;
     margin-left: 80px;
