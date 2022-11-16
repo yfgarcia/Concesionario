@@ -1,6 +1,4 @@
 body {
-
-
     height: 800px;
     background-size: cover;
     background-size: 90rem;
@@ -63,12 +61,91 @@ ul {
     color: darkblue;
 }
 
+/*BANNER*/
+.banner {
+    width: 100%;
+    height: 500px;
+    animation: banner 10s infinite linear alternate;
+    background-size: 100% 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes banner {
+
+    0%,
+    10% {
+        background-image: url(../imagenes/Moto1.jpg);
+    }
+
+    25%,
+    45% {
+        background-image: url(../imagenes/Moto.2.jpg);
+    }
+
+    50%,
+    70% {
+        background-image: url(../imagenes/Moto.3.jpg);
+    }
+
+    75%,
+    100% {
+        background-image: url(../imagenes/Motos4.jpg);
+    }
+}
+
+.capa {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.info {
+    z-index: 1;
+    width: 100%;
+    max-width: 550px;
+    text-align: center;
+}
+
+.info h1 {
+    color: white;
+    font-size: 45px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.info p {
+    color: white;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+
+.info a {
+    color: white;
+    text-decoration: none;
+    background: #3088e0;
+    padding: 16px 37px;
+    display: inline-block;
+    border-radius: 50px;
+}
+
+/*Termina Banner*/
+
 
 /*ACÁ COMIENZA HOME*/
 
 .Home {
-    display: inline-block;
+    display: flex;
     position: relative;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    justify-content: space-between;
 }
 
 .Home-content {
@@ -79,84 +156,111 @@ ul {
     box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.4);
 }
 
+
+.Home img {
+    border-radius: 100%;
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+
+.Home img {
+    width: 95%
+}
+
 /*ACÁ COMIENZA CATALOGO*/
 
 .Catalogo {
-    display: inline-block;
+    text-decoration: none;
     position: relative;
+    left: 100px;
+    text-align: center;
+    font: bold 125% monospace;
+    
+
+    
+}
+.Catalogo a{
+    text-decoration: none;
+    text-align: center;
+    display: flex;
 }
 
 .Catalogo-content {
     display: none;
     position: absolute;
-    width: 100%;
+    width: 50%;
     overflow: auto;
-    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 0px 10px 10px white(0, 0, 0, 0.4);
+    
+    
 }
 
 .Catalogo:hover .Catalogo-content {
     display: block;
+    opacity: 0.9;
+    
+   
 }
 
 .Catalogo-content a {
+    text-decoration:none;
     display: block;
-    color: #000000;
-    padding: 5px;
-    text-decoration: none;
+    color: white;
+    padding: 3px;
+    
+    
 }
 
 .Catalogo-content a:hover {
-    color: #FFFFFF;
+    color: white;
     background-color: #00A4BD;
+    text-decoration:none;
 }
-
 
 /*ACÁ COMIENZA COMMUNITY*/
-
-.Community {
-    display: inline-block;
+.Comunidad {
+    text-decoration: none;
     position: relative;
+    left: 300px;
+    text-align: center;
+    font: bold 125% monospace;
 }
-
-.Community-content {
+.Comunidad a{
+    text-decoration: none;
+}
+.Comunidad-content {
     display: none;
     position: absolute;
-    width: 100%;
+    width: 50%;
     overflow: auto;
-    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 0px 10px 10px white(0, 0, 0, 0.4);
 }
 
-.Community:hover .Community-content {
+.Comunidad:hover .Comunidad-content {
     display: block;
+    opacity: 0.9;
 }
 
-.Community-content a {
+.Comunidad-content a {
     display: block;
-    color: #000000;
-    padding: 5px;
+    color: white;
+    padding: 3px;
     text-decoration: none;
 }
 
-.Community-content a:hover {
+.Comunidad-content a:hover {
     color: #FFFFFF;
     background-color: #00A4BD;
 }
 
-/* Configuracón para la tabla */
-
-table {
-    width: 50%;
-    border: 1px solid #000;
-    background-color: #428881;
-}
-
-th,
-td {
-    width: 25%;
-    text-align: left;
-    vertical-align: top;
-    border: 1px solid #000;
-}
+.p {
+    font: bold 90% monospace;
+  }
+ 
+  
 
 /*CAMBIOS VIDEOS MAICOL*/
 /*Parrafo1*/
@@ -295,6 +399,7 @@ article:hover a .Parrafovideo2 {
 .Parrafo3 h4 {
     color: #757c7b;
 }
+
 .Parrafo3 p {
     font-size: 15px;
     max-width: 750px;
@@ -395,8 +500,8 @@ article:hover a .Parrafovideo4 {
 .slider-contenedor {
     width: 100%;
     display: flex;
-    
-    
+
+
 }
 
 .responsive-banner {
@@ -408,7 +513,7 @@ article:hover a .Parrafovideo4 {
     align-items: center;
 }
 
-/*INICIA CAMBIOS DANIELA*/ 
+/*INICIA CAMBIOS DANIELA*/
 
 .textoredes {
     background-color: #3d4947;
@@ -416,12 +521,14 @@ article:hover a .Parrafovideo4 {
     justify-content: center;
 
 }
-.textoredes p{
-    color:#a29e9e;
+
+.textoredes p {
+    color: #a29e9e;
     margin-left: 100px;
     margin-right: 100px;
-    
+
 }
+
 .textoredes {
     margin: 10px 0px;
 }
@@ -429,17 +536,18 @@ article:hover a .Parrafovideo4 {
 .textoredes h1 {
     padding-top: 20px;
     text-align: center;
-    color:#FFFFFF;
+    color: #FFFFFF;
 }
 
-.textoredes ul{
+.textoredes ul {
     justify-content: center;
     justify-content: space-around;
 }
-.redes h3{
+
+.redes h3 {
     margin-top: 35px;
     margin-left: 30px;
-    color:#FFFFFF
+    color: #FFFFFF
 }
 
 .redes .social {
@@ -460,20 +568,21 @@ article:hover a .Parrafovideo4 {
     font-size: 16px;
     padding: 16px 15px;
     transition: all 0.4s ease-in;
-    
+
 }
+
 .redes .social li a:hover {
     background: rgb(0, 0, 0);
     color: #fff;
 }
 
-.contactos h3{
+.contactos h3 {
     margin-left: 20px;
     text-align: left;
     color: #FFFFFF;
     display: flex;
 }
-    
+
 .contactos {
     padding: 20px;
     margin: 0px;
@@ -492,7 +601,7 @@ article:hover a .Parrafovideo4 {
     font-size: 16px;
     padding: 16px 15px;
     transition: all 0.4s ease-in;
-    
+
 }
 
 .contactos .social li a:hover {
